@@ -1,23 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:translationY="50dp">
 
     <TextView
-        android:id="@+id/contact1txttv"
-        android:layout_width="195dp"
-        android:layout_height="46dp"
+        android:id="@+id/eischied"
+        android:layout_width="344dp"
+        android:layout_height="27dp"
         android:layout_marginStart="176dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="48dp"
         android:layout_marginEnd="177dp"
         android:text="Eischied"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:translationX="-148dp"
+        android:translationY="40dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/gonzaga"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="314dp"
+        android:text="Gonzaga"
+        android:textSize="18sp"
+        android:translationX="-10dp"
+        android:translationY="40dp" />
+
+
+    <TextView
+        android:id="@+id/arcenal"
+        android:layout_width="326dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="84dp"
+        android:text="Arcenal"
+        android:textSize="18sp"
+        android:translationX="-10dp"
+        android:translationY="40dp" />
+
+
+    <TextView
+        android:id="@+id/francis"
+        android:layout_width="313dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="78dp"
+        android:text="Francis"
+        android:textSize="18sp"
+        android:translationX="-6dp"
+        android:translationY="25dp" />
+
+
+    <TextView
+        android:id="@+id/ngannou"
+        android:layout_width="311dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="77dp"
+        android:text="Ngannou"
+        android:textSize="18sp"
+        android:translationX="-5dp"
+        android:translationY="12dp" />
+
+
+    <TextView
+        android:id="@+id/dana"
+        android:layout_width="305dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="76dp"
+        android:text="Dana"
+        android:textSize="18sp"
+        android:translationX="-5dp"
+        android:translationY="-2dp" />
+
+
+    <TextView
+        android:id="@+id/white"
+        android:layout_width="318dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="71dp"
+        android:text="White"
+        android:textSize="18sp"
+        android:translationX="-5dp"
+        android:translationY="-10dp" />
+
+    <TextView
+        android:id="@+id/daniel"
+        android:layout_width="318dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="71dp"
+        android:text="Daniel"
+        android:textSize="18sp"
+        android:translationX="-6dp"
+        android:translationY="-10dp" />
+
+
+    <TextView
+        android:id="@+id/cormier"
+        android:layout_width="319dp"
+        android:layout_height="37dp"
+        android:text="Cormier"
+        android:textSize="18sp"
+        android:translationX="29dp"
+        android:translationY="-10dp" />
+
+</LinearLayout>
+
+
+
