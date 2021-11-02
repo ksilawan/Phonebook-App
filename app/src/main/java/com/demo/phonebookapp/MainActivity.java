@@ -9,6 +9,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 public class MainActivity extends AppCompatActivity {
+    public static String name = "NA";
+    public static String contact = "Num";
+    public static String address = "NA";
 
     TextView eischied;
     TextView gonzaga;
@@ -40,7 +43,14 @@ public class MainActivity extends AppCompatActivity {
         eischied.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                name = "Eischeid";
+                contact = "092345678910";
+                address = "Edi sa puso mo";
+
                 Intent intent = new Intent(MainActivity.this,MainActivity2.class);
+                intent.putExtra("Name", name);
+                intent.putExtra("Number", contact);
+                intent.putExtra("Address", address);
                 startActivity(intent);
             }
         });
@@ -49,7 +59,14 @@ public class MainActivity extends AppCompatActivity {
         gonzaga.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                name = "Gonzaga";
+                contact = "092345678911";
+                address = "Awstrawnesia";
+
                 Intent intent = new Intent(MainActivity.this,MainActivity2.class);
+                intent.putExtra("Name", name);
+                intent.putExtra("Number", contact);
+                intent.putExtra("Address", address);
                 startActivity(intent);
             }
         });
@@ -58,7 +75,14 @@ public class MainActivity extends AppCompatActivity {
         arcenal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                name = "Arcenal";
+                contact = "092345678912";
+                address = "Brazil";
+
                 Intent intent = new Intent(MainActivity.this,MainActivity2.class);
+                intent.putExtra("Name", name);
+                intent.putExtra("Number", contact);
+                intent.putExtra("Address", address);
                 startActivity(intent);
             }
         });
@@ -66,7 +90,14 @@ public class MainActivity extends AppCompatActivity {
         francis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                name = "Francis";
+                contact = "092345678923";
+                address = "Feilipins";
+
                 Intent intent = new Intent(MainActivity.this,MainActivity2.class);
+                intent.putExtra("Name", name);
+                intent.putExtra("Number", contact);
+                intent.putExtra("Address", address);
                 startActivity(intent);
             }
         });
@@ -74,7 +105,14 @@ public class MainActivity extends AppCompatActivity {
         ngannou.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                name = "Ngannou";
+                contact = "+639185457125";
+                address = "Brgy. Handumanan";
+
                 Intent intent = new Intent(MainActivity.this,MainActivity2.class);
+                intent.putExtra("Name", name);
+                intent.putExtra("Number", contact);
+                intent.putExtra("Address", address);
                 startActivity(intent);
             }
         });
@@ -82,7 +120,14 @@ public class MainActivity extends AppCompatActivity {
         dana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                name = "Dana";
+                contact = "092345678933";
+                address = "France";
+
                 Intent intent = new Intent(MainActivity.this,MainActivity2.class);
+                intent.putExtra("Name", name);
+                intent.putExtra("Number", contact);
+                intent.putExtra("Address", address);
                 startActivity(intent);
             }
         });
@@ -90,7 +135,14 @@ public class MainActivity extends AppCompatActivity {
         white.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                name = "White";
+                contact = "092345678456";
+                address = "White Country";
+
                 Intent intent = new Intent(MainActivity.this,MainActivity2.class);
+                intent.putExtra("Name", name);
+                intent.putExtra("Number", contact);
+                intent.putExtra("Address", address);
                 startActivity(intent);
             }
         });
@@ -98,7 +150,14 @@ public class MainActivity extends AppCompatActivity {
         daniel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                name = "Daniel";
+                contact = "092345678945";
+                address = "Amewica";
+
                 Intent intent = new Intent(MainActivity.this,MainActivity2.class);
+                intent.putExtra("Name", name);
+                intent.putExtra("Number", contact);
+                intent.putExtra("Address", address);
                 startActivity(intent);
             }
         });
@@ -106,7 +165,14 @@ public class MainActivity extends AppCompatActivity {
         cormier.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                name = "Cormier";
+                contact = "092345678916";
+                address = "Tiewon";
+
                 Intent intent = new Intent(MainActivity.this,MainActivity2.class);
+                intent.putExtra("Name", name);
+                intent.putExtra("Number", contact);
+                intent.putExtra("Address", address);
                 startActivity(intent);
             }
         });
